@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"strapi-mongolocal.strapi_webhooks"}],"uuid":"cdca6fabd06d42aabb1fb260c339ed4a"}
