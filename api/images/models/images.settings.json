@@ -1,23 +1,17 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "images",
   "info": {
-    "name": "Products"
+    "name": "Images"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
-      "unique": true
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "price": {
-      "type": "decimal"
+      "unique": false
     },
     "cover": {
       "collection": "file",
@@ -29,16 +23,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "quantity": {
-      "type": "integer"
-    },
-    "categories": {
-      "collection": "categories",
-      "via": "products"
-    },
-    "status": {
-      "type": "string"
     }
   }
 }
